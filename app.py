@@ -41,6 +41,12 @@ def fetch_money_quotes():
         return ("Something went wrong!")
     
 # Streamli UI
+st.set_page_config(
+    page_title="Wealth Wizard",
+    page_icon="💰",
+    layout="centered"
+)
+
 st.title("💰 Wealth Wizard: Side Hustles & Money Mindset")
 
 tab1, tab2 = st.tabs(["💼 Hustle & Wealth", "🧠 Money Mindset Quiz"])
